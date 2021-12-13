@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unnat bharat abhiyan website</title>
+    <link  rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"> -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="check.html">Activity</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">contact us</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>contact us</h1>
+    </section>
+
+
+      <!-- new section -->
+     <section class="location">
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14236.
+        977943128162!2d75.8107776!3d26.8639724!3m2!1i1024!2i768!4f13.1!3m3!1m2!
+        1s0x0%3A0xdfc843bf9b6f869a!2sMalaviya%20National%20Institute%20of%20T
+        echnology%20Jaipur%20(MNIT)!5e0!3m2!1sen!2sin!4v1638787865452!5m2!1sen
+        !2sin" width="600" height="450" style="border:0;" allowfullscreen=""
+         loading="lazy"></iframe>
+         
+     </section>
+
+     <section class="contact-us">
+
+         <div class="row">
+             <div class="contact-col">
+                 <div>
+                     <i class="fa fa-home"></i>
+                     <span>
+                         <h5> JLN Marg,Malaviya Nagar</h5>
+                          <p>Jaipur, Rajasthan(India)</p> 
+                     </span>
+                 </div>
+                 <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5> +91 8387819006 </h5>
+                        <p> phone number</p>
+                         <!-- <p>Jaipur, Rajasthan(India)</p>  -->
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5> unnatbharatabhiyan@mnit.ac.in</h5>
+                        
+                         <p>Email us your query</p> 
+                    </span>
+                </div>
+             </div>
+             <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="email" placeholder="Enter email address" required>
+                    <input type="text" placeholder="Enter your Subject" required>
+                    <textarea rows="7" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+             </div>
+         </div>
+
+     </section>
+
+
+
+
+     
+      <!-- footer  -->
+      <section class="footer">
+          <h4>
+             About Us  
+          </h4>
+          <p>
+            Unnat Bharat Abhiyan is inspired by the vision of transformational change in rural development
+             processes by leveraging knowledge institutions to help build the architecture of an Inclusive India 
+           </p>
+           <div class="icons">
+               <a href="https://www.instagram.com/ubamnit/?igshid=ep3n6zjgv6ba">  <i class="fa fa-instagram"></i></a>
+               <a href="https://www.facebook.com/Unnat-Bharat-Abhiyaan-MNIT-Jaipur-404409316400476/?ref=br_rs"><i class="fa fa-facebook"></i></a>
+               <!-- <i class="fa fa-linkedin"></i>
+               <i class="fa fa-twitter"></i> -->
+            
+           </div>
+      </section>
+
+    <!-- javascript part -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu()
+        {
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+        }
+    </script>
+</body>
+</html>
